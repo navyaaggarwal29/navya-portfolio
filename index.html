@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navya Aggarwal | Software Engineer</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Immersive Depth Overlays -->
+    <div class="bg-grid"></div>
+    <div class="glow-orb top-right"></div>
+    <div class="glow-orb middle-left"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="https://github.com/navyaaggarwal29" target="_blank" class="logo">Navya Aggarwal<span class="accent">.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">About</a></li>
+                <li><a href="#journey">Journey</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Stack</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- 1. FULL-SCREEN HERO SECTION -->
+        <section id="home" class="hero-section">
+            <div class="hero-container">
+                <div class="hero-text">
+                    <div class="badge">Computer Science Student</div>
+                    <h1 class="hero-title">Navya Aggarwal</h1>
+                    <h2 class="hero-subtitle">
+                        <span class="typing-text"></span><span class="cursor">&nbsp;</span>
+                    </h2>
+                    <p class="hero-description">
+                        I build scalable web applications, real-time systems, and impactful digital solutions by combining strong problem-solving with modern technologies.
+                    </p>
+                    <p class="hero-tagline font-mono accent">Building systems. Solving problems. Learning relentlessly.</p>
+                    
+                    <div class="hero-actions mt-6">
+                        <a href="#projects" class="btn btn-primary">View My Work <i class="fa-solid fa-arrow-right-long"></i></a>
+                        <a href="#contact" class="btn btn-outline">Contact Me</a>
+                        <a href="resume.pdf" target="_blank" class="btn btn-outline"><i class="fa-solid fa-file-arrow-down"></i> Resume</a>
+                    </div>
+                </div>
+
+                <div class="hero-visual" id="parallax-visual">
+                    <div class="abstract-graphic">
+                        <div class="floating-box box-1">
+                            <div class="code-line w-long"></div>
+                            <div class="code-line w-med highlight"></div>
+                            <div class="code-line w-short"></div>
+                        </div>
+                        <div class="floating-box box-2">
+                            <i class="fa-solid fa-server tech-icon"></i>
+                            <span>System Status: <span class="accent">Optimal</span></span>
+                        </div>
+                        <div class="floating-box box-3">
+                            <div class="code-code font-mono">
+                                <span class="syntax-keyword">const</span> <span class="syntax-var">trajectory</span> = <span class="syntax-string">"Growth"</span>;<br>
+                                <span class="syntax-keyword">await</span> executeLogic();
+                            </div>
+                        </div>
+                        <div class="particle p1"></div>
+                        <div class="particle p2"></div>
+                        <div class="particle p3"></div>
+                        <div class="ring r1"></div>
+                        <div class="ring r2"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Telemetry / Stats HUD -->
+            <div class="telemetry-hud">
+                <div class="telemetry-header">LIVE TELEMETRY</div>
+                <div class="hud-stat"><span>SYS.STATUS</span><span class="hud-val accent">Learning &amp; Building</span></div>
+                <div class="hud-stat"><span>PROJECTS</span><span class="hud-val">6+ Completed</span></div>
+                <div class="hud-stat"><span>STACK</span><span class="hud-val">MERN + Core CS</span></div>
+                <div class="hud-stat"><span>FOCUS</span><span class="hud-val accent">Full-Stack Systems</span></div>
+                <div class="hud-stat"><span>MODE</span><span class="hud-val">Continuous Growth</span></div>
+            </div>
+
+            <div class="scroll-down-indicator">
+                <span>Initiate</span>
+                <div class="line"></div>
+            </div>
+        </section>
+
+        <!-- 2. DOMAIN CURIOSITY SECTION -->
+        <section id="domain" class="domain-curiosity reveal">
+            <div class="section-header">
+                <div class="subtitle-tag"><i class="fa-solid fa-layer-group"></i> FOCUS / SPECIALTIES</div>
+                <h2 class="section-title">DOMAIN CURIOSITY</h2>
+                <div class="accent-line"></div>
+            </div>
+            
+            <div class="domain-grid">
+                <div class="domain-card reveal">
+                    <div class="diamond-icon">
+                        <div class="diamond"></div>
+                    </div>
+                    <h3>Backend Systems & APIs</h3>
+                    <p>Designing scalable architectures and efficient APIs for high-performance systems.</p>
+                </div>
+                
+                <div class="domain-card reveal" style="transition-delay: 0.1s;">
+                    <div class="diamond-icon">
+                        <div class="diamond"></div>
+                    </div>
+                    <h3>Full-Stack Development</h3>
+                    <p>Building seamless integrations between responsive frontends and powerful backend systems.</p>
+                </div>
+                
+                <div class="domain-card reveal" style="transition-delay: 0.2s;">
+                    <div class="diamond-icon">
+                        <div class="diamond"></div>
+                    </div>
+                    <h3>Data Structures & Problem Solving</h3>
+                    <p>Solving complex problems using optimized algorithms and strong logical thinking.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. JOURNEY SECTION (STORY STYLE) -->
+        <section id="journey" class="journey-section">
+            <div class="section-header right">
+                <div class="subtitle-tag"><i class="fa-solid fa-code-merge"></i> ENGINEERING LOGS</div>
+                <h2 class="section-title">MISSION TIMELINE</h2>
+                <div class="accent-line"></div>
+            </div>
+            
+            <div class="journey-stepper">
+                <div class="step-card reveal">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3>SheFi Scholar <span style="font-size:0.9rem; color:var(--text-muted);">(Season 16)</span></h3>
+                        <p>Selected for SheFi, a global program empowering women in blockchain and Web3. Gained exposure to decentralized technologies, blockchain fundamentals, and emerging digital ecosystems.</p>
+                    </div>
+                </div>
+                <div class="step-line reveal"></div>
+
+                <div class="step-card reveal">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3>VInnovateIT – Technical Member</h3>
+                        <p>Contributing to real-world development projects, collaborating in teams, and gaining hands-on experience in building scalable applications.</p>
+                    </div>
+                </div>
+                <div class="step-line reveal"></div>
+
+                <div class="step-card reveal">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3>The AI & ML Club – Member</h3>
+                        <p>Exploring machine learning concepts, working on practical implementations, and understanding real-world AI applications.</p>
+                    </div>
+                </div>
+                <div class="step-line reveal"></div>
+
+                <div class="step-card reveal">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <h3>Hackathons</h3>
+                        <p>Participated in multiple hackathons focused on rapid problem-solving, full-stack development, and building impactful solutions under time constraints.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. PROJECT SECTION (PREMIUM) -->
+        <section id="projects" class="projects-section">
+            <div class="section-header center">
+                <div class="subtitle-tag"><i class="fa-solid fa-laptop-code"></i> R&D / PROJECTS</div>
+                <h2 class="section-title">DEPLOYED SYSTEMS</h2>
+                <div class="accent-line"></div>
+            </div>
+            
+            <div class="projects-grid premium">
+                <!-- PROJECT 1: Hotel Booking -->
+                <div class="project-card-premium reveal interactive-tilt">
+                    <div class="card-glow"></div>
+                    <div class="project-image">
+                        <img src="vybe haus.png" alt="Full-Stack Booking - VYBE Haus">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <div class="tech-stack-premium">
+                            <span class="pill">React</span><span class="pill">JavaScript</span><span class="pill">CSS</span>
+                        </div>
+                        <h3>Hotel Booking Platform</h3>
+                        <p>A full-stack hotel booking platform featuring advanced filtering, responsive UI, and seamless user experience.</p>
+                        <div class="project-links">
+                            <a href="https://vybe-haus-hotel-booking-eet75x2jj.vercel.app/" target="_blank" class="btn-link">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="https://github.com/navyaaggarwal29/vybe-haus-hotel-booking" target="_blank" class="btn-link">GitHub <i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJECT 2: Raja Mantri -->
+                <div class="project-card-premium reveal interactive-tilt">
+                    <div class="card-glow"></div>
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Backend Project">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <div class="tech-stack-premium">
+                            <span class="pill">Node.js</span><span class="pill">Express</span><span class="pill">Socket.IO</span>
+                        </div>
+                        <h3>Raja Mantri Chor Sipahi Backend</h3>
+                        <p>Multiplayer backend system with REST APIs and real-time updates supporting game logic and state synchronization.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/navyaaggarwal29/raja-mantri-backend" target="_blank" class="btn-link">GitHub <i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJECT 3: Admin Dashboard -->
+                <div class="project-card-premium reveal interactive-tilt">
+                    <div class="card-glow"></div>
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Admin Dashboard">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <div class="tech-stack-premium">
+                            <span class="pill">React</span><span class="pill">Chart.js</span>
+                        </div>
+                        <h3>Admin Dashboard System</h3>
+                        <p>Interactive admin dashboard for managing and visualizing data with efficient state handling and UI components.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/navyaaggarwal29/moderator-admin-dashboard" target="_blank" class="btn-link">GitHub <i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJECT 4: Productivity API -->
+                <div class="project-card-premium reveal interactive-tilt">
+                    <div class="card-glow"></div>
+                    <div class="project-image">
+                        <img src="productivity-api.png" alt="Productivity API">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <div class="tech-stack-premium">
+                            <span class="pill">Node.js</span><span class="pill">Express</span><span class="pill">SQLite</span><span class="pill">JWT</span>
+                        </div>
+                        <h3>Productivity Dashboard API</h3>
+                        <p>REST API for productivity tracking with authentication, task management, and structured data handling.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/navyaaggarwal29/productivity-dashboard-api" target="_blank" class="btn-link">GitHub <i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. SKILLS SECTION -->
+        <section id="skills" class="skills-section">
+            <div class="section-header right">
+                <div class="subtitle-tag"><i class="fa-solid fa-shield-halved"></i> SYSTEM CAPABILITIES</div>
+                <h2 class="section-title">CORE SKILLS & TECH</h2>
+                <div class="accent-line"></div>
+            </div>
+            
+            <div class="arsenal-grid wide-arsenal">
+                <div class="arsenal-item reveal">
+                    <div class="skill-head">
+                        <i class="fa-brands fa-python"></i>
+                        <span class="skill-title">Python</span>
+                    </div>
+                    <p class="skill-desc">Problem Solving & DSA</p>
+                </div>
+                <div class="arsenal-item reveal">
+                    <div class="skill-head">
+                        <i class="fa-brands fa-js"></i>
+                        <span class="skill-title">JavaScript</span>
+                    </div>
+                    <p class="skill-desc">Core Development</p>
+                </div>
+                <div class="arsenal-item reveal">
+                    <div class="skill-head">
+                        <i class="fa-brands fa-react"></i>
+                        <span class="skill-title">React</span>
+                    </div>
+                    <p class="skill-desc">Frontend Development</p>
+                </div>
+                <div class="arsenal-item reveal">
+                    <div class="skill-head">
+                        <i class="fa-brands fa-node-js"></i>
+                        <span class="skill-title">Node.js</span>
+                    </div>
+                    <p class="skill-desc">API Development</p>
+                </div>
+                <div class="arsenal-item reveal">
+                    <div class="skill-head">
+                        <i class="fa-solid fa-server"></i>
+                        <span class="skill-title">Express</span>
+                    </div>
+                    <p class="skill-desc">Backend Frameworks</p>
+                </div>
+                <div class="arsenal-item reveal">
+                    <div class="skill-head">
+                        <i class="fa-brands fa-git-alt"></i>
+                        <span class="skill-title">Git & GitHub</span>
+                    </div>
+                    <p class="skill-desc">Version Control</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6 & 7. TECH PHILOSOPHY & EXTRACURRICULARS -->
+        <section id="philosophy" class="philosophy-section reveal">
+            <div class="philosophy-container">
+                <div class="philosophy-text">
+                    <div class="subtitle-tag"><i class="fa-regular fa-lightbulb"></i> MY APPROACH</div>
+                    <h2 class="section-title">TECH PHILOSOPHY</h2>
+                    <br>
+                    <p class="quote-text">
+                        "I believe great technology is not just about writing code, but about solving meaningful problems with clarity and purpose."
+                    </p>
+                    <p class="desc-text">
+                        I focus on building scalable, efficient, and user-centric systems where logic meets creativity and real-world impact.
+                    </p>
+                </div>
+
+                <div class="sys-terminal interactive-tilt">
+                    <div class="terminal-header">
+                        <span>SYS.TERMINAL</span>
+                        <div class="dots"><span></span><span></span><span></span></div>
+                    </div>
+                    <div class="terminal-body font-mono">
+                        <span class="accent">SYS.CONNECTION ESTABLISHED.</span><br><br>
+                        Type "fetch resume" to download technical dossier.<br>
+                        Or type "contact" to initiate comms.<br><br>
+                        <span class="accent">></span> <span class="typing">Awaiting input...</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Extracurriculars Grid -->
+            <div class="extracurriculars-header mt-8">
+                <h3>EXTRACURRICULARS & INTERESTS</h3>
+            </div>
+            <div class="extra-grid">
+                <div class="extra-btn interactive-tilt"><i class="fa-solid fa-guitar accent"></i> Guitar & Music <span>(Finding rhythm and creativity)</span></div>
+                <div class="extra-btn interactive-tilt"><i class="fa-solid fa-person-walking accent"></i> Dance <span>(Expression, energy, and confidence)</span></div>
+                <div class="extra-btn interactive-tilt"><i class="fa-solid fa-basketball accent"></i> Sports <span>(Building discipline, teamwork, & focus)</span></div>
+                <div class="extra-btn interactive-tilt"><i class="fa-solid fa-plane accent"></i> Travel & Exploration <span>(Learning through new experiences)</span></div>
+                <div class="extra-btn interactive-tilt"><i class="fa-solid fa-book-open accent"></i> Reading <span>(Expanding technical & creative perspectives)</span></div>
+                <div class="extra-btn interactive-tilt"><i class="fa-solid fa-arrow-trend-up accent"></i> Self-Development <span>(Continuous growth mindset)</span></div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 8. FINAL CONTACT SECTION -->
+    <footer id="contact" class="footer-premium">
+        <div class="footer-content">
+            <h2 class="cta-title">Let's Connect</h2>
+            <p class="cta-sub">Currently open to new opportunities, collaborations, and engineering conversations.</p>
+            
+            <div class="big-links">
+                <a href="mailto:navyaaggarwal29@gmail.com" class="big-link mail-link">
+                    <span class="link-text">navyaaggarwal29@gmail.com</span>
+                    <div class="link-hover-bg"></div>
+                </a>
+            </div>
+            
+            <div class="social-arsenal">
+                <a href="https://github.com/navyaaggarwal29" target="_blank" class="social-btn"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/navya-aggarwal-a6a395384/" target="_blank" class="social-btn"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            
+            <p class="text-muted" style="margin-bottom: 1rem; color: var(--text-muted); font-size: 0.95rem;">Download my resume for a detailed overview of my experience and skills.</p>
+            <a href="resume.pdf" target="_blank" class="btn btn-outline" style="margin-bottom: 2rem;">
+                <i class="fa-solid fa-file-pdf"></i> Download Resume
+            </a>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>Built with logic, creativity, and ambition.</p>
+            <p class="mt-2 text-faded">&copy; 2026 Navya Aggarwal</p>
+        </div>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
